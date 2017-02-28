@@ -2,11 +2,11 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Forms\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Forms\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\SkiaSharp\library_project_imports\assets</ResolvedAssetDirectory>
@@ -17,10 +17,10 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Forms.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Forms.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

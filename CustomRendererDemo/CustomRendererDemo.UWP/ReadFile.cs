@@ -33,6 +33,16 @@ namespace CustomRendererDemo.UWP
                     }
                 }
             }
+            using (var output = File.OpenWrite("d:\\imagesC2UXOO7F(Converted).jpg"))
+            {
+                using (var image = SKImage.FromBitmap(resized))
+                {
+                    using (output)
+                    {
+                        image.Encode(SKImageEncodeFormat.Jpeg, 75).SaveTo(output);
+                    }
+                }
+            }
         }
     }
 }

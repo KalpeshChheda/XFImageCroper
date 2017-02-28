@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f809cf71-5028-4332-8b01-16696c0943f8</PackageIdentityName>
     <PackageIdentityPublisher>CN=mattl</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-28T08:16:55.196</Modified>
+      <Modified>2017-02-28T08:41:16.980</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\bin\x86\Debug\CustomRendererDemo.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\bin\x86\Debug\CustomRendererDemo.UWP.exe">
       <PackagePath>entrypoint\CustomRendererDemo.UWP.exe</PackagePath>
-      <Modified>2017-02-28T08:16:53.821</Modified>
+      <Modified>2017-02-28T08:41:16.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kalpeshchh\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -492,53 +492,53 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2017-01-31T05:21:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo\bin\Debug\CustomRendererDemo.dll">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo\bin\Debug\CustomRendererDemo.dll">
       <PackagePath>CustomRendererDemo.dll</PackagePath>
-      <Modified>2017-02-28T08:16:51.554</Modified>
+      <Modified>2017-02-28T08:41:00.226</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\Assets\flower.jpg">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\Assets\flower.jpg">
       <PackagePath>Assets\flower.jpg</PackagePath>
       <Modified>2017-02-28T08:11:39.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-02-28T08:11:39.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-02-28T08:11:39.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-28T08:11:39.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-28T08:11:39.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-28T08:11:39.718</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-28T08:11:39.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-28T08:11:39.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-28T08:11:39.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\bin\x86\Debug\CustomRendererDemo.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\bin\x86\Debug\CustomRendererDemo.UWP.xr.xml">
       <PackagePath>CustomRendererDemo.UWP.xr.xml</PackagePath>
       <Modified>2017-02-28T08:16:53.647</Modified>
     </AppxPackagedFile>
@@ -554,14 +554,14 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
       <Modified>2017-01-31T05:21:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-28T08:16:54.855</Modified>
+      <Modified>2017-02-28T08:36:52.584</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\bin\x86\Debug\Core\CustomRendererDemo.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\bin\x86\Debug\Core\CustomRendererDemo.UWP.exe">
       <PackagePath>CustomRendererDemo.UWP.exe</PackagePath>
-      <Modified>2017-02-28T08:16:55.190</Modified>
+      <Modified>2017-02-28T08:41:16.976</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

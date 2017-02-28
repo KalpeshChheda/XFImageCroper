@@ -1,2 +1,2 @@
-E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\CustomRendererDemo.UWP.csproj;x86
-E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo\CustomRendererDemo.csproj;neutral
+C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\CustomRendererDemo.UWP.csproj;x86
+C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo\CustomRendererDemo.csproj;neutral

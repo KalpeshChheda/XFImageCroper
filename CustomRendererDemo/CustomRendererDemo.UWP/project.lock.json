@@ -16295,16 +16295,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "E:\\NewTFSMapping\\SkiaSharpImageCrop\\CustomRendererDemo\\CustomRendererDemo.UWP\\CustomRendererDemo.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\kalpeshchh\\Documents\\GitHub\\XFImageCroper\\CustomRendererDemo\\CustomRendererDemo.UWP\\CustomRendererDemo.UWP.csproj",
       "projectName": "CustomRendererDemo.UWP",
-      "projectPath": "E:\\NewTFSMapping\\SkiaSharpImageCrop\\CustomRendererDemo\\CustomRendererDemo.UWP\\CustomRendererDemo.UWP.csproj",
-      "projectJsonPath": "E:\\NewTFSMapping\\SkiaSharpImageCrop\\CustomRendererDemo\\CustomRendererDemo.UWP\\project.json",
+      "projectPath": "C:\\Users\\kalpeshchh\\Documents\\GitHub\\XFImageCroper\\CustomRendererDemo\\CustomRendererDemo.UWP\\CustomRendererDemo.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\kalpeshchh\\Documents\\GitHub\\XFImageCroper\\CustomRendererDemo\\CustomRendererDemo.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "E:\\NewTFSMapping\\SkiaSharpImageCrop\\CustomRendererDemo\\CustomRendererDemo\\CustomRendererDemo.csproj": {
-              "projectPath": "E:\\NewTFSMapping\\SkiaSharpImageCrop\\CustomRendererDemo\\CustomRendererDemo\\CustomRendererDemo.csproj"
+            "C:\\Users\\kalpeshchh\\Documents\\GitHub\\XFImageCroper\\CustomRendererDemo\\CustomRendererDemo\\CustomRendererDemo.csproj": {
+              "projectPath": "C:\\Users\\kalpeshchh\\Documents\\GitHub\\XFImageCroper\\CustomRendererDemo\\CustomRendererDemo\\CustomRendererDemo.csproj"
             }
           }
         }

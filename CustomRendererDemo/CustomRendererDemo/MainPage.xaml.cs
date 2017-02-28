@@ -9,10 +9,10 @@ using System.IO;
 
 namespace CustomRendererDemo
 {
-	public partial class MainPage : ContentPage
-	{
-	
-		private readonly Random random = new Random();
+    public partial class MainPage : ContentPage
+    {
+
+        private readonly Random random = new Random();
         SKPath path2;
         private SKRect rectangle2;
         private SKRect squareleft;
@@ -34,19 +34,19 @@ namespace CustomRendererDemo
         float rright = 0;
         float rbottom = 0;
         public MainPage()
-		{
-			InitializeComponent();
+        {
+            InitializeComponent();
             InitializeComponent();
             path2 = new SKPath();
             rectangle2 = SKRect.Create(100, 100, 400, 400);
             squareleft = SKRect.Create(rectangle2.Left + 5, rectangle2.Top + 5, 40, 40);
-            squareright = SKRect.Create(rectangle2.Right - 45, rectangle2.Bottom - 45, 40,40);
+            squareright = SKRect.Create(rectangle2.Right - 45, rectangle2.Bottom - 45, 40, 40);
             squaretop = SKRect.Create(rectangle2.Right - 45, rectangle2.Top + 5, 40, 40);
             squarebottom = SKRect.Create(rectangle2.Left + 5, rectangle2.Bottom - 45, 40, 40);
         }
 
-		private void canvasView_Released(SKPoint mousePoint)
-		{
+        private void canvasView_Released(SKPoint mousePoint)
+        {
             leftPress = false;
             bottomPress = false;
             rightPress = false;
@@ -218,14 +218,14 @@ namespace CustomRendererDemo
             squarebottom = SKRect.Create(rectangle2.Left + 5, rectangle2.Bottom - 45, 40, 40);
             canvasView.InvalidateSurface();
         }
-		private void OnPainting(object sender, SKPaintSurfaceEventArgs e)
-		{
+        private void OnPainting(object sender, SKPaintSurfaceEventArgs e)
+        {
             SKImageInfo info = e.Info;
             var canvas = e.Surface.Canvas;
-			canvas.Clear(SKColors.White);
-           Stream FileStream = DependencyService.Get<ImageFile>().readFile("Assets/flower.jpg");
-          using (var stream = new SKManagedStream(FileStream))
-           using(var _bitmap = SKBitmap.Decode(stream))
+            canvas.Clear(SKColors.White);
+            Stream FileStream = DependencyService.Get<ImageFile>().readFile("Assets/flower.jpg");
+            using (var stream = new SKManagedStream(FileStream))
+            using (var _bitmap = SKBitmap.Decode(stream))
             using (SKPaint paint = new SKPaint())
             {
                 paint.Style = SKPaintStyle.Stroke;
@@ -255,5 +255,10 @@ namespace CustomRendererDemo
             };
 
         }
+
+        private void Crop_Clicked(object sender, EventArgs e)
+        {
+            CropImage.cropImage(rectangle2);
         }
-	}
+    }
+}

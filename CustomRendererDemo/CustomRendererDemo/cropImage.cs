@@ -14,7 +14,7 @@ namespace CustomRendererDemo
         public static void cropImage(SKRect rect)
         {
             SKBitmap resized = null;
-            using (var input = DependencyService.Get<ImageFile>().readFile("flower.jpg"))
+            using (var input = DependencyService.Get<ImageFile>().readFile("Assets/flower.jpg"))
             {
                 using (var inputStream = new SKManagedStream(input))
                 {

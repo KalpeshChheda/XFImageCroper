@@ -7,5 +7,9 @@
 
     <Grid>
         <local:TouchCanvasView x:Name="canvasView" PaintSurface="OnPainting" Pressed="canvasView_Pressed" Moved="canvasView_Moved" Released="canvasView_Released"/>
+        <StackLayout>
+            <Button x:Name="Crop" Text="CorpImage" Clicked="Crop_Clicked"></Button>
+        </StackLayout>
+        
     </Grid>
 </ContentPage>

@@ -11,17 +11,21 @@
 namespace CustomRendererDemo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\NewTFSMapping\\SkiaSharpImageCrop\\CustomRendererDemo\\CustomRendererDemo\\MainPag" +
-        "e.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\kalpeshchh\\Documents\\GitHub\\XFImageCroper\\CustomRendererDemo\\CustomRende" +
+        "rerDemo\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::CustomRendererDemo.TouchCanvasView canvasView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button Crop;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
             canvasView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::CustomRendererDemo.TouchCanvasView>(this, "canvasView");
+            Crop = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Crop");
         }
     }
 }
