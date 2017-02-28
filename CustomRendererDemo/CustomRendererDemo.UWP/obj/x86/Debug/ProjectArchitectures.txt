@@ -1,0 +1,2 @@
+E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo.UWP\CustomRendererDemo.UWP.csproj;x86
+E:\NewTFSMapping\SkiaSharpImageCrop\CustomRendererDemo\CustomRendererDemo\CustomRendererDemo.csproj;neutral
