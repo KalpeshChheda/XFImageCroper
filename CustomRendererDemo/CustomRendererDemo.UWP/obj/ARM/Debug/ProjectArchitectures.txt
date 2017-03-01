@@ -1,0 +1,2 @@
+C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo.UWP\CustomRendererDemo.UWP.csproj;arm
+C:\Users\kalpeshchh\Documents\GitHub\XFImageCroper\CustomRendererDemo\CustomRendererDemo\CustomRendererDemo.csproj;neutral

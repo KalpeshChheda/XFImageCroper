@@ -11,7 +11,7 @@ namespace CustomRendererDemo
 {
     public partial class MainPage : ContentPage
     {
-
+        SKBitmap _bitmap;
         private readonly Random random = new Random();
         SKPath path2;
         private SKRect rectangle2;
@@ -36,7 +36,7 @@ namespace CustomRendererDemo
         public MainPage()
         {
             InitializeComponent();
-            InitializeComponent();
+
             path2 = new SKPath();
             rectangle2 = SKRect.Create(100, 100, 400, 400);
             squareleft = SKRect.Create(rectangle2.Left + 5, rectangle2.Top + 5, 40, 40);
@@ -218,19 +218,27 @@ namespace CustomRendererDemo
             squarebottom = SKRect.Create(rectangle2.Left + 5, rectangle2.Bottom - 45, 40, 40);
             canvasView.InvalidateSurface();
         }
+        protected override void OnAppearing()
+        {
+            Stream FileStream = DependencyService.Get<ImageFile>().readFile("Assets/flower.jpg");
+            using (var stream = new SKManagedStream(FileStream))
+            {
+                _bitmap = SKBitmap.Decode(stream);
+            }
+            base.OnAppearing(); 
+        }
         private void OnPainting(object sender, SKPaintSurfaceEventArgs e)
         {
             SKImageInfo info = e.Info;
             var canvas = e.Surface.Canvas;
             canvas.Clear(SKColors.White);
-            Stream FileStream = DependencyService.Get<ImageFile>().readFile("Assets/flower.jpg");
-            using (var stream = new SKManagedStream(FileStream))
-            using (var _bitmap = SKBitmap.Decode(stream))
+            
             using (SKPaint paint = new SKPaint())
             {
                 paint.Style = SKPaintStyle.Stroke;
                 paint.StrokeWidth = 2;
                 paint.Color = Color.Black.ToSKColor();
+                
                 canvas.DrawBitmap(_bitmap, SKRect.Create(_bitmap.Width, _bitmap.Height), paint);
 
                 canvas.DrawRect(rectangle2, paint);
@@ -252,6 +260,7 @@ namespace CustomRendererDemo
                     canvas.DrawRect(squaretop, paint);
                     canvas.DrawRect(squarebottom, paint);
                 }
+                canvas.DrawPositionedText("TA", new SKPoint[] { new SKPoint(cX, cY) }, paint);
             };
 
         }
