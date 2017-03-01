@@ -229,8 +229,11 @@ namespace CustomRendererDemo
         }
         private void OnPainting(object sender, SKPaintSurfaceEventArgs e)
         {
-            SKImageInfo info = e.Info;
+            //SKImageInfo info = e.Info;
             var canvas = e.Surface.Canvas;
+            var scale = e.Info.Width / (float)Width;
+            canvas.Scale(scale);
+
             canvas.Clear(SKColors.White);
             
             using (SKPaint paint = new SKPaint())
